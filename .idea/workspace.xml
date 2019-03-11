@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eaa89540-f6cb-4419-b617-ea4ea495efb7" name="Default Changelist" comment="" />
+    <list default="true" id="eaa89540-f6cb-4419-b617-ea4ea495efb7" name="Default Changelist" comment="Simple chat server">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/ChatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/CommandInterpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/CommandInterpreter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command Interpreter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command Interpreter.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Command Interpreter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="11" column="175" selection-start-line="11" selection-start-column="175" selection-end-line="11" selection-end-column="175" />
+            <state relative-caret-position="343">
+              <caret line="34" column="90" lean-forward="true" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -32,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChatServer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="391">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -41,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TopChatter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
+            <state relative-caret-position="34">
               <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
             </state>
           </provider>
@@ -50,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Users.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="119">
               <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
@@ -59,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChatHistory.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="170">
               <caret line="11" column="196" selection-start-line="11" selection-start-column="196" selection-end-line="11" selection-end-column="196" />
             </state>
           </provider>
@@ -68,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChatMessage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="68">
               <caret line="5" column="188" selection-start-line="5" selection-start-column="188" selection-end-line="5" selection-end-column="188" />
             </state>
           </provider>
@@ -91,17 +97,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/ExampleWeb.kt" />
         <option value="$PROJECT_DIR$/src/Main.kt" />
-        <option value="$PROJECT_DIR$/src/Command Interpreter.kt" />
         <option value="$PROJECT_DIR$/src/TopChatter.kt" />
         <option value="$PROJECT_DIR$/src/Users.kt" />
         <option value="$PROJECT_DIR$/src/ChatHistory.kt" />
         <option value="$PROJECT_DIR$/src/ChatMessage.kt" />
         <option value="$PROJECT_DIR$/src/ChatServer.kt" />
+        <option value="$PROJECT_DIR$/src/Command Interpreter.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="980" />
     <option name="height" value="1051" />
   </component>
@@ -180,7 +187,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1753" height="954" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5424757" />
@@ -192,7 +199,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15266272" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15192744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,7 +207,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928312" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289941" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32879817" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -226,52 +233,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command Interpreter.kt">
+    <entry file="file://$PROJECT_DIR$/src/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="175" selection-start-line="11" selection-start-column="175" selection-end-line="11" selection-end-column="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TopChatter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Users.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="119">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChatHistory.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="170">
           <caret line="11" column="196" selection-start-line="11" selection-start-column="196" selection-end-line="11" selection-end-column="196" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChatMessage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="68">
           <caret line="5" column="188" selection-start-line="5" selection-start-column="188" selection-end-line="5" selection-end-column="188" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChatServer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="391">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/TopChatter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command Interpreter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="34" column="90" lean-forward="true" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
         </state>
       </provider>
     </entry>

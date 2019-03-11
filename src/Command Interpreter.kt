@@ -16,10 +16,11 @@ class CommandInterpreter(x: InputStream, y: OutputStream): ChatObserver, Runnabl
     private var finished = true
 
     override fun run(){
-        output.println("Hello and welcome.")
+        output.println("Server: Hello and welcome.")
         ChatHistory.registerObserver(this)
         loop@ while(finished){
             var text = input.nextLine()
+            println(text) //for testing purposes
 
             if(text.startsWith(":"))
             {
@@ -31,22 +32,22 @@ class CommandInterpreter(x: InputStream, y: OutputStream): ChatObserver, Runnabl
                         break@loop
                     }
                     "user" -> {
-                        if(Users.checkIsTaken(splitText[1])) {
-                            output.println("Username in use.")
+                        if(Users.checkIsTaken(splitText[1]) || splitText[1] == "Server") {
+                            output.println("Server: Username in use.")
                         }
                         else {
                             Users.newUser(splitText[1])
                             username = splitText[1]
-                            output.println("Hello $username")
+                            output.println("Server: Hello $username")
                         }
                     }
                     "history" -> printHistory()
                     "users" -> printUsers()
-                    else -> output.println("Invalid command.")
+                    else -> output.println("Server: Invalid command.")
                 }
             }
             else if (username.isBlank()){
-                output.println("No username set. Use \":user [username]\" as command to set your username.")
+                output.println("Server: No username set. Use \":user [username]\" as command to set your username.")
             }
             else {
                 var x = ChatMessage(text, username)
