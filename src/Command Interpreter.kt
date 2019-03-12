@@ -16,7 +16,7 @@ class CommandInterpreter(x: InputStream, y: OutputStream): ChatObserver, Runnabl
     private var finished = true
 
     override fun run(){
-        output.println("Server: Hello and welcome.")
+        output.println("Server: Hello and welcome. Commands are :history, :exit, :user and :users.")
         ChatHistory.registerObserver(this)
         loop@ while(finished){
             var text = input.nextLine()
@@ -62,7 +62,7 @@ class CommandInterpreter(x: InputStream, y: OutputStream): ChatObserver, Runnabl
 
     private fun printHistory() {
         ChatHistory.getHistory().forEach {
-            output.println(it)
+            output.println("History: $it")
         }
     }
 
